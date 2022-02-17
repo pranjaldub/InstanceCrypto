@@ -6,7 +6,7 @@ import {
   Navbar,
   Homepage,
   Exchanges,
-  Currencies,
+  Cryptocurrencies,
   News,
   CryptoDetails,
 } from "./components";
@@ -31,7 +31,7 @@ function App() {
               <Route
                 exact
                 path="/cryptocurrencies"
-                element={<Currencies></Currencies>}
+                element={<Cryptocurrencies></Cryptocurrencies>}
               ></Route>
               <Route
                 exact
